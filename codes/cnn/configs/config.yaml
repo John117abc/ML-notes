@@ -22,7 +22,7 @@ model:
     in_channels: 1
 
 train:
-  epochs: 100
+  epochs: 5
   lr: 0.001
   weight_decay: 1e-4
   save_dir: "./checkpoints"
